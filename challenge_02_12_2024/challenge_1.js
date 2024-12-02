@@ -1,4 +1,4 @@
-const inputArrayData = require("./data3.js");
+const inputArrayData = require("./data.js");
 
 const compareMaxSteps = [1, 2, 3];
 
