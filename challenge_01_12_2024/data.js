@@ -1999,5 +1999,5 @@ const array_second = [56543,
     47711,
     34661,
     79564];
-//as of challenge we to find the distance of each small element of first array with each small element of second array so sorted them in ASC order
-module.exports = { array_first: array_first.toSorted(), array_second: array_second.toSorted() };
+console.log(array_first);
+module.exports = { arrayFirst: array_first.toSorted(), arraySecond: array_second.toSorted() };

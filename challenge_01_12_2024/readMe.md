@@ -24,4 +24,4 @@ To find the total distance between the left list and the right list, add up the 
 
 
 # run the code with following command
-`node index.js`
+`node chanllenge_1.js`
