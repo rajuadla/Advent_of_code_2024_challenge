@@ -1999,5 +1999,5 @@ const array_second = [56543,
     47711,
     34661,
     79564];
-console.log(array_first);
+
 module.exports = { arrayFirst: array_first.toSorted(), arraySecond: array_second.toSorted() };
