@@ -1,11 +1,12 @@
 const inputArrayData = require("./data.js");
 
-const { array_first, array_second } = inputArrayData;
+const { arrayFirst, arraySecond } = inputArrayData;
 
-// finding sum of gap between each element of given arrays in ASC order
-const sumofgapBTWArrElements = array_first
+// finding sum of left side element found in right array & multifi with item
+const similarityElementsFound = arrayFirst
   .reduce((sumValue, searchItem) => {
-    sumValue + array_second.filter((item) => item === searchItem).length;
-  }, 0);
+    const itemFoundCount = arraySecond.filter((item) => item === searchItem).length;
+    return sumValue + (itemFoundCount * searchItem);
+}, 0);
 
-console.log(sumofgapBTWArrElements);
+console.log(similarityElementsFound);
